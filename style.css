@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+}
+
+input{
+    width: 200px;
+}
+button{
+    width: 205px;
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 650px;
+    float: left;
+    height: 100%;
+}
+
+td,
+th {
+    border: 2px solid rgba(254, 193, 7, 255);
+    background: rgba(56, 44, 110, 255);
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+.spalva2 {
+    background: rgba(254, 193, 7, 255);
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.spalva3 {
+    background: rgba(229, 174, 48, 255);
+    color: black;
+    text-align: center;
+}
+td{
+    flex-wrap: nowrap;
+}
